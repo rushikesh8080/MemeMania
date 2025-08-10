@@ -5,4 +5,3 @@ asyncio
 pydantic
 httpx
 mcp
-os
