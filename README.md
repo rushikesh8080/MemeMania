@@ -42,7 +42,7 @@ pip install -r requirements.txt
 #### 3 Set up .env file
 ```bash
 AUTH_TOKEN=your_auth_token
-MY_NUMBER=+91
+MY_NUMBER=91
 ```
 
 #### 4 Run the MCP Server
@@ -60,8 +60,7 @@ Copy code
 }
 ### Example output:
 
-json
-Copy code
+```bash
 {
   "memes": [
     {
@@ -74,4 +73,7 @@ Copy code
   ],
   "count": 1
 }
-
+```
+## 🛡 Authentication
+This server uses Bearer Token authentication.
+Include the Authorization: Bearer <AUTH_TOKEN> header in every request.
