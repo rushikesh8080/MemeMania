@@ -1,0 +1,8 @@
+fastmcp
+dotenv
+typing
+asyncio
+pydantic
+httpx
+mcp
+os
