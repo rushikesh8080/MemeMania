@@ -46,8 +46,9 @@ MY_NUMBER=91
 ```
 
 #### 4 Run the MCP Server
+```bash
 python main.py
-
+```
 get_memes
 Fetches trending memes from Reddit via Meme API.
 
