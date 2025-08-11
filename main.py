@@ -55,6 +55,10 @@ mcp = FastMCP(
     stateless_http=True
 )
 
+@mcp.tool
+async def about() -> dict:
+    return {"name": "MemeMania", "description": "A server which gives you latest trending memes from reddit"}
+
 # ===== validate tool =====
 @mcp.tool
 async def validate() -> str:
